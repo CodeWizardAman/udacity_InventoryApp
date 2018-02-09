@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+
+
+    <!-- labels -->
+    <string name="name_label">Product name</string>
+    <string name="price_label">Price</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="total_sales_label">Total Sales</string>
+    <string name="product_image_label">Product Image</string>
+
+    <string name="order_btn">Order from supplier</string>
+    <string name="receive_btn">Receive Product</string>
+    <string name="track_sale_btn">Track sale</string>
+
+    <!-- Order Email -->
+    <string name="order_email_address">order_product.com</string>
+    <string name="order_subject">Request For Order</string>
+</resources>

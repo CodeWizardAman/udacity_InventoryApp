@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_view_addproduct_name"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:text="Name"
+            />
+        <EditText
+            android:id="@+id/edit_text_addProduct_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_addproduct_name"
+            />
+       </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_view_addproduct_price"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:text="Price"
+            />
+        <EditText
+            android:id="@+id/edit_text_addProduct_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_addproduct_price"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_view_addproduct_quantity"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:text="quantity"
+            />
+        <EditText
+            android:id="@+id/edit_text_addProduct_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_addproduct_quantity"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_view_addproduct_supplierName"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:text="Supplier Name"
+            />
+        <EditText
+            android:id="@+id/edit_text_addProduct_supplierName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_addproduct_supplierName"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_view_addproduct_supplierAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:text="Supplier Address"
+            />
+        <EditText
+            android:id="@+id/edit_text_addProduct_supplierMailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_addproduct_supplierAddress"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_view_addproduct_supplierContact"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:text="Supplier Contact"
+            />
+        <EditText
+            android:id="@+id/edit_text_addProduct_supplierContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_addproduct_supplierContact"
+            />
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center"
+        />
+
+
+     <EditText
+            android:id="@+id/image_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Choose an image..."/>
+
+        <Button
+            android:id="@+id/image_upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+
+
+</LinearLayout>
