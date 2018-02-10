@@ -67,6 +67,7 @@ public abstract void onComplete(int dialogId, int quantity);
         numberPicker.setWrapSelectorWheel(false);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setView(dialogView);
         builder.setTitle("Pick Quantity");
         builder.setPositiveButton(buttonText, new DialogInterface.OnClickListener() {
             @Override
