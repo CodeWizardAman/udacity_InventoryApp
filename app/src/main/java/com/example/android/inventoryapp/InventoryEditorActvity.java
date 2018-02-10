@@ -114,7 +114,10 @@ public class InventoryEditorActvity extends AppCompatActivity implements LoaderM
             Toast.makeText(this, "Product saved in inventory", Toast.LENGTH_SHORT).show();
         }
 
-        this.finish();
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        //this.finish();
 
     }
 

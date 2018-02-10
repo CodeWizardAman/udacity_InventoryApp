@@ -39,9 +39,9 @@ public class InventoryContract {
         public final static String COLUMN_INVENTORY_ITEM_NAME= "name";
         public final static String COLIMN_INVENTORY_ITEM_PRICE = "price";
         public final static String COLUMN_INVENTORY_ITEM_QUANTITY ="quantity";
-        public final static String COLUMN_SUPPLIER_NAME = "supplier_name";
-        public final static String COLUMN_SUPPLIER_CONTACT ="supplier_contact";
-        public final static String COLUMN_SUPPLIER_EMAIL ="supplier_email";
+       // public final static String COLUMN_SUPPLIER_NAME = "supplier_name";
+        //public final static String COLUMN_SUPPLIER_CONTACT ="supplier_contact";
+        //public final static String COLUMN_SUPPLIER_EMAIL ="supplier_email";
         public final static String COLUMN_INVENTORY_ITEM_IMAGE ="image";
 
     }
