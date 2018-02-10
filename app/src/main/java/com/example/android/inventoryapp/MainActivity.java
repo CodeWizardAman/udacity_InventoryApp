@@ -36,7 +36,7 @@ if(floatingBtn != null) {
         }
     });
 }
-       ListView productListItems = findViewById(R.id.product_list);
+       ListView productListItems = (ListView) findViewById(R.id.product_list);
 
        productListItems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
            @Override

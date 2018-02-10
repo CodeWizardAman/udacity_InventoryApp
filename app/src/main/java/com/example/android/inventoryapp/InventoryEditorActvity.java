@@ -117,7 +117,7 @@ public class InventoryEditorActvity extends AppCompatActivity implements LoaderM
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-        //this.finish();
+
 
     }
 

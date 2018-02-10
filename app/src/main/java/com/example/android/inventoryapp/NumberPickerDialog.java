@@ -61,7 +61,7 @@ public abstract void onComplete(int dialogId, int quantity);
 
         View dialogView = getActivity().getLayoutInflater().inflate(R.layout.number_picker, null);
 
-        final NumberPicker numberPicker = dialogView.findViewById(R.id.number_picker_id);
+        final NumberPicker numberPicker = (NumberPicker) dialogView.findViewById(R.id.number_picker_id);
         numberPicker.setMinValue(1);
         numberPicker.setMaxValue(500);
         numberPicker.setWrapSelectorWheel(false);
